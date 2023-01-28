@@ -1,0 +1,18 @@
+.listEmpty {
+  width: 100%;
+  border-top: 1px solid var(--gray-400);
+  padding: 4rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.listEmpty p {
+  color: var(--gray-300);
+}
+
+.listEmpty p:first-of-type {
+  font-weight: bold;
+}
